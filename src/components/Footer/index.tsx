@@ -3,11 +3,9 @@ import FooterRecent from './FooterRecent';
 import FooterTags from './FooterTags';
 import FooterWeedSeeds from './FooterWeedSeeds';
 import FooterDelivery from './FooterDelivery';
-import { copyFile } from 'fs';
 
-type Props = {};
 
-const Footer = (props: Props) => {
+const Footer = () => {
 	return (
 		<footer className=''>
 			<div className='flex p-6 justify-around gap-4 w-full flex-wrap md:flex-nowrap bg-[#777777] text-white'>

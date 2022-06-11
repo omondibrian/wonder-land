@@ -1,4 +1,3 @@
-import Header from 'components/Header';
 import Layout from 'components/Layout';
 import HomePage from 'pages/Homepage';
 import React from 'react';
