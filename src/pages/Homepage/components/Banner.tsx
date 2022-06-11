@@ -12,7 +12,7 @@ const Banner = () => {
 					/>
 				</div>
 				<div className='flex justify-center align-middle p-4 '>
-					<button className='w-96 bg-rose-300 px-8 py-2 rounded-md '>
+					<button className='w-96 bg-[#8E847B] font-bold text-lg text-white px-8 py-2 rounded-md '>
 						Browse all
 					</button>
 				</div>
