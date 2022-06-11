@@ -1,16 +1,15 @@
 import React from 'react';
+import Banner from './components/Banner';
+import Products from './components/Products';
+import Services from './components/Services';
 
 const HomePage = () => {
 	return (
-		<div className='flex flex-col space-x-2 '>
-			<div className='flex justify-center align-middle  w-full'>
-				<img
-					src='/wonderland.jpg'
-					alt=''
-					style={{ maxWidth: '100%' }}
-				/>
-			</div>
-		</div>
+		<React.Fragment>
+			<Banner />
+			<Products />
+            <Services/>
+		</React.Fragment>
 	);
 };
 
