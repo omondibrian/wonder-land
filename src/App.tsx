@@ -1,14 +1,21 @@
-import Header from "components/Header";
-import HomePage from "pages/Homepage";
+import Header from 'components/Header';
+import Layout from 'components/Layout';
+import HomePage from 'pages/Homepage';
+import React from 'react';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
-  return (
-    <div>
-      <Header/>
-      <HomePage/>
-
-      </div>
-  );
+	return (
+		<React.Fragment>
+			<Router>
+				<Layout>
+					<Routes>
+						<Route index element={<HomePage />} />
+					</Routes>
+				</Layout>
+			</Router>
+		</React.Fragment>
+	);
 }
 
 export default App;
