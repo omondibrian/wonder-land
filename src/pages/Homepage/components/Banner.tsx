@@ -1,6 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Banner = () => {
+	const navigate = useNavigate();
 	return (
 		<div className='flex justify-center'>
 			<div className='flex flex-col space-x-2 mt-4 max-w-6xl'>
@@ -12,7 +14,13 @@ const Banner = () => {
 					/>
 				</div>
 				<div className='flex justify-center align-middle p-4 '>
-					<button className='w-96 bg-[#8E847B] font-bold text-lg text-white px-8 py-2 rounded-md '>
+					<button
+						onClick={(e) => {
+							e.preventDefault();
+							navigate('/shop');
+						}}
+						className='w-96 bg-[#8E847B] font-bold text-lg text-white px-8 py-2 rounded-md '
+					>
 						Browse all
 					</button>
 				</div>

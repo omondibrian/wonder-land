@@ -1,24 +1,34 @@
 import { Search, ShoppingBasket } from '@mui/icons-material';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const HeaderMiddleBar = () => {
+	const navigate = useNavigate();
 	return (
 		<div className='flex justify-between px-20 py-10 bg-green-400'>
 			{/* Logo */}
-			<div className='flex align-middle justify-center '>
-				<h2 className='font-bold text-4xl italic'>WonderLand</h2>
+			<div className='flex align-middle justify-center cursor-pointer'>
+				<h2
+					className='font-bold text-md lg:text-4xl italic'
+					onClick={(e) => {
+						e.preventDefault();
+						navigate('/');
+					}}
+				>
+					WonderLand
+				</h2>
 			</div>
 			{/* Middle text */}
 			<div className='flex align-middle justify-center'>
-				<h2 className='font-bold text-3xl uppercase'>
+				<h2 className='font-bold text-md hidden md:block lg:text-3xl uppercase'>
 					24 Hours Marijuana delivery
 				</h2>
 			</div>
 			{/* Right */}
 			<div className='flex space-x-4 align-middle'>
 				{/* Search */}
-				<div className='h-10 w-10 flex align-middle justify-center border-2 border-blue-500 rounded-md'>
-					<Search fontSize='large' />
+				<div className='h-6 w-6 md:h-10 md:w-10 flex align-middle justify-center border-2 border-blue-500 rounded-md'>
+					<Search />
 				</div>
 				{/* Cart components */}
 				<div className='relative flex align-middle justify-between'>
