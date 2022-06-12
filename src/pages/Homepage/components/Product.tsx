@@ -2,7 +2,7 @@ import React from 'react';
 
 const Product = () => {
 	return (
-		<li>
+		<li className='w-full'>
 			<div className='relative h-64 w-full'>{/* Content */}
             <img src="/weed.jpg" alt="" className='w-full h-full object-cover'/>
             </div>

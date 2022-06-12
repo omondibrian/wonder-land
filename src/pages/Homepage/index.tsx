@@ -6,9 +6,11 @@ import Services from './components/Services';
 const HomePage = () => {
 	return (
 		<React.Fragment>
-			<Banner />
-			<Products />
-            <Services/>
+			<div className='flex flex-col'>
+				<Banner />
+				<Products />
+				<Services />
+			</div>
 		</React.Fragment>
 	);
 };

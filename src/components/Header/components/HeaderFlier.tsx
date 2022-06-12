@@ -10,18 +10,18 @@ import {
 } from '@mui/icons-material';
 
 const contactLinks = [
-	{ title: 'Email us', icon: <Mail /> },
-	{ title: '24HRS', icon: <Timeline /> },
-	{ title: 'Email us', icon: <Phone /> },
+	{ title: 'Email us', icon: <Mail fontSize='small'/> },
+	{ title: '24HRS', icon: <Timeline fontSize='small'/> },
+	{ title: 'Email us', icon: <Phone fontSize='small'/> },
 ];
 const HeaderFlier = () => {
 	return (
-		<div className='flex align-middle w-full justify-center md:justify-between bg-black text-white px-5 py-4'>
+		<div className='flex order-2 md:order-1 align-middle py-2 w-full justify-center md:justify-between bg-black text-white md:px-5 md:py-4'>
 			<ul className='flex space-x-2'>
 				{contactLinks.map(({ icon, title }, index) => (
-					<li className='flex space-x-1'>
-						<div>{icon}</div>
-						<div>{title}</div>
+					<li className='flex space-x-1 align-middle'>
+						<div className='flex align-middle'>{icon}</div>
+						<div className='text-sm'>{title}</div>
 					</li>
 				))}
 			</ul>
