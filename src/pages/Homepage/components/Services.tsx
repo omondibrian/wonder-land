@@ -23,7 +23,7 @@ const services = [
 const Services = () => {
 	return (
 		<div className='flex justify-center p-8'>
-			<ul className='flex felx-wrap space-x-4'>
+			<ul className='flex flex-col md:flex-row felx-wrap space-x-4'>
 				{services.map(({ body, id, img, title }) => (
 					<li key={id} className="basis-72 grow border-slate-500 border-w">
 						<div className='flex justify-center mb-2'>
