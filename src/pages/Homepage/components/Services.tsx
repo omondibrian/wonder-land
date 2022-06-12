@@ -2,20 +2,20 @@ import React from 'react';
 const services = [
 	{
 		id: 1,
-		img: './weed.jpg',
+		img: '/chockolate.jpg',
 		title: 'OUR SERVICES',
 		body: `You are a cannabis user and we are the number one resource for all your marijuana needs. You are our number one priority and we pride ourselves on providing quality, inexpensive cannabis products to you,
         the customer, as quickly and discreetly as possible.`,
 	},
 	{
 		id: 2,
-		img: './weed.jpg',
+		img: '/chockolate.jpg',
 		title: 'ALL YOU NEED TO KNOW ABOUT US',
 		body: `We are a premium cannabis delivery service providing the best adult-use cannabis brands in the United States! We believe our customers deserve the best and that’s why we do everything we can to provide the best marijuana and weed infused products on the market to you, the customer.`,
 	},
 	{
 		id: 3,
-		img: './weed.jpg',
+		img: '/chockolate.jpg',
 		title: 'NO CUSTOMS OR DUTY FEES!',
 		body: 'We pay these fees so you don’t have to! The total billed at checkout is the final amount you pay, inclusive of VAT, with no additional charges at the time of delivery!',
 	},

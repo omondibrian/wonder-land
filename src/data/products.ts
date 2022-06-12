@@ -5,7 +5,7 @@ export const products = [
 		name: 'Product 1',
 		description: 'This is a product description',
 		price: 10,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -14,7 +14,7 @@ export const products = [
 		description: 'This is a product description',
 
 		price: 20,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -22,7 +22,7 @@ export const products = [
 		name: 'Product 3',
 		description: 'This is a product description',
 		price: 30,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -30,7 +30,7 @@ export const products = [
 		name: 'Product 4',
 		description: 'This is a product description',
 		price: 40,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -38,7 +38,7 @@ export const products = [
 		name: 'Product 5',
 		description: 'This is a product description',
 		price: 50,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -46,7 +46,7 @@ export const products = [
 		name: 'Product 6',
 		description: 'This is a product description',
 		price: 10,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -55,7 +55,7 @@ export const products = [
 		description: 'This is a product description',
 
 		price: 20,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -63,7 +63,7 @@ export const products = [
 		name: 'Product 8',
 		description: 'This is a product description',
 		price: 30,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -71,7 +71,7 @@ export const products = [
 		name: 'Product 9',
 		description: 'This is a product description',
 		price: 40,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -79,7 +79,7 @@ export const products = [
 		name: 'Product  10',
 		description: 'This is a product description',
 		price: 50,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -87,7 +87,7 @@ export const products = [
 		name: 'Product 11',
 		description: 'This is a product description',
 		price: 10,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -96,7 +96,7 @@ export const products = [
 		description: 'This is a product description',
 
 		price: 20,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -104,7 +104,7 @@ export const products = [
 		name: 'Product 13',
 		description: 'This is a product description',
 		price: 30,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -112,7 +112,7 @@ export const products = [
 		name: 'Product 14',
 		description: 'This is a product description',
 		price: 40,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -120,7 +120,7 @@ export const products = [
 		name: 'Product 15',
 		description: 'This is a product description',
 		price: 50,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -128,7 +128,7 @@ export const products = [
 		name: 'Product 16',
 		description: 'This is a product description',
 		price: 10,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -137,7 +137,7 @@ export const products = [
 		description: 'This is a product description',
 
 		price: 20,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -145,7 +145,7 @@ export const products = [
 		name: 'Product 18',
 		description: 'This is a product description',
 		price: 30,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -153,7 +153,7 @@ export const products = [
 		name: 'Product 19',
 		description: 'This is a product description',
 		price: 40,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 	{
@@ -161,7 +161,7 @@ export const products = [
 		name: 'Product 20',
 		description: 'This is a product description',
 		price: 50,
-		image: '/weed.jpg',
+		image: '/chockolate.jpg',
 		categories: ['category 1', 'category 2'],
 	},
 ];

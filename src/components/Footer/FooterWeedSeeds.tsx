@@ -9,7 +9,7 @@ const FooterWeedSeeds = () => {
 				Wonderland! At Wonderland you buy marijuana seeds from one of
 				the best seed banks around!
 			</p>
-      <img src="/weed.jpg" alt="" className='w-64 h-32 object-cover' />
+      <img src="/chockolate.jpg" alt="" className='w-64 h-32 object-cover' />
 		</div>
 	);
 };

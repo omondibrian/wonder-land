@@ -4,7 +4,7 @@ const Product = () => {
 	return (
 		<li className='w-full'>
 			<div className='relative h-64 w-full'>{/* Content */}
-            <img src="/weed.jpg" alt="" className='w-full h-full object-cover'/>
+            <img src="/chockolate.jpg" alt="" className='w-full h-full object-cover'/>
             </div>
 			<div className='flex flex-col space-y-2'>
 				{/* About */}
