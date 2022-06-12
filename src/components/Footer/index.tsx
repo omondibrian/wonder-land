@@ -8,7 +8,7 @@ import FooterDelivery from './FooterDelivery';
 const Footer = () => {
 	return (
 		<footer className=''>
-			<div className='flex p-6 justify-around gap-4 w-full flex-wrap md:flex-nowrap bg-[#777777] text-white'>
+			<div className='flex p-6 justify-around flex-col sm:flex-row gap-4 w-full flex-wrap md:flex-nowrap bg-[#777777] text-white'>
 				<FooterRecent />
 				<FooterTags />
 				<FooterWeedSeeds />
