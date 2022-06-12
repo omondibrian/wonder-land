@@ -16,7 +16,7 @@ const contactLinks = [
 ];
 const HeaderFlier = () => {
 	return (
-		<div className='flex align-middle w-full justify-between bg-black text-white px-5 py-4'>
+		<div className='flex align-middle w-full justify-center md:justify-between bg-black text-white px-5 py-4'>
 			<ul className='flex space-x-2'>
 				{contactLinks.map(({ icon, title }, index) => (
 					<li className='flex space-x-1'>
@@ -25,7 +25,7 @@ const HeaderFlier = () => {
 					</li>
 				))}
 			</ul>
-			<ul className='flex align-middle space-x-2'>
+			<ul className=' align-middle space-x-2 hidden md:flex'>
 				<li className='flex justify-center align-middle space-x-1 mr-1'>
 					<MailOutlined fontSize='small' />
 					<span className='uppercase'>NewsLetter</span>

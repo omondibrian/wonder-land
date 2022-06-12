@@ -9,13 +9,13 @@ const Shop = () => {
 
 	return (
 		<div className='px-8 flex flex-col gap-4'>
-			<div className='flex justify-between align-middle px-4 py-4'>
+			<div className='flex justify-center md:justify-between align-middle px-4 py-4 flex-col md:flex-row'>
 				<div>
 					<h2 className='font-bold text-2xl uppercase text-slate-600'>
 						Home/Shop/{category}
 					</h2>
 				</div>
-				<div className='flex gap-3 align-middle'>
+				<div className='flex gap-3 align-middle flex-col md:flex-row'>
 					<div>Showwing 1-12 of {products.length} products</div>
 					<div className='flex align-middle'>
 						<select name='Sort' id='' className='p-2 border border-slate-400 focus:border-none'>
@@ -35,11 +35,11 @@ const Shop = () => {
 				</div>
 			</div>
 			<div className='flex justify-between w-full'>
-				<div className='w-64 max-w-[12rem]'>
+				<div className='w-64 max-w-[12rem] hidden md:block'>
 					<h2 className='font-bold text-xl'>Products/{category}</h2>
 					<ul className='flex flex-col gap-4 p-3'>
 						{products.slice(1, 6).map((product) => (
-							<li className='flex gap-2'>
+							<li className='flex gap-2' key={product.id}>
 								<img src={product.image} alt='' className='h-12 w-12' />
 								<div>
 									<p>{product.name}</p>
