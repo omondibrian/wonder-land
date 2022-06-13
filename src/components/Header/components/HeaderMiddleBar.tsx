@@ -20,7 +20,7 @@ const HeaderMiddleBar = ({ setSidebarOpen, sidebarOpen }: Props) => {
 
 	return (
 		<div
-			className={`flex order-1 md:order-2 justify-around md:justify-between px-8 md:px-20 py-2  md:py-10 bg-[#90ED98] w-full`}
+			className={`flex order-1 md:order-2 justify-around md:justify-between px-4 md:px-12 py-2  md:py-4 bg-[#90ED98] w-full`}
 		>
 			{/* Clickable  */}
 			<div
