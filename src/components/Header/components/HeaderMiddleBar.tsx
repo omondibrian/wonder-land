@@ -9,11 +9,19 @@ const sideLinks = [
 	{ title: 'About', to: '/about' },
 	{ title: 'Contact', to: '/contact' },
 ];
-const HeaderMiddleBar = () => {
+type Props = {
+	sidebarOpen: boolean;
+	setSidebarOpen: any;
+};
+const HeaderMiddleBar = ({ setSidebarOpen, sidebarOpen }: Props) => {
 	const navigate = useNavigate();
-	const [sidebarOpen, setSidebarOpen] = React.useState<boolean>(false);
+
+	
+
 	return (
-		<div className='flex order-1 md:order-2 justify-around md:justify-between px-8 md:px-20 py-2  md:py-10 bg-green-400 w-full'>
+		<div
+			className={`flex order-1 md:order-2 justify-around md:justify-between px-8 md:px-20 py-2  md:py-10 bg-[#90ED98] w-full`}
+		>
 			{/* Clickable  */}
 			<div
 				className='flex align-middle justify-center md:hidden'
@@ -26,7 +34,7 @@ const HeaderMiddleBar = () => {
 			<div
 				className={
 					sidebarOpen
-						? 'fixed z-10 left-0 top-0 flex flex-col md:hidden h-screen w-screen bg-slate-800 bg-opacity-50'
+						? 'fixed z-10 left-0 top-0 peer-focus:flex flex flex-col md:hidden h-screen w-screen bg-slate-800 bg-opacity-50'
 						: 'hidden fixed z-10 left-0 top-0  flex-col md:hidden h-screen w-screen bg-slate-800 bg-opacity-50'
 				}
 			>
@@ -66,19 +74,19 @@ const HeaderMiddleBar = () => {
 			</div>
 			{/* Logo */}
 			<div className='flex align-middle justify-center cursor-pointer'>
-				<h2
-					className='font-bold text-md hidden sm:block tex-sm lg:text-4xl italic'
+				<div
+					className='font-bold text-md  align-middle hidden sm:block tex-sm h-full  lg:text-4xl italic'
 					onClick={(e) => {
 						e.preventDefault();
 						navigate('/');
 					}}
 				>
-					WonderLand
-				</h2>
+					<img src={'/logo.png'} alt='logo' className='h-12' />
+				</div>
 			</div>
 			{/* Middle text */}
 			<div className='flex align-middle justify-center'>
-				<h2 className='font-bold text-md hidden md:block lg:text-3xl uppercase'>
+				<h2 className='font-bold text-md hidden text-white md:block lg:text-3xl uppercase'>
 					24 Hours Marijuana delivery
 				</h2>
 			</div>

@@ -14,9 +14,9 @@ const contactLinks = [
 	{ title: '24HRS', icon: <Timeline fontSize='small'/> },
 	{ title: 'Email us', icon: <Phone fontSize='small'/> },
 ];
-const HeaderFlier = () => {
+const HeaderFlier = ({scrolled}:{scrolled:boolean}) => {
 	return (
-		<div className='flex order-2 md:order-1 align-middle py-2 w-full justify-center md:justify-between bg-black text-white md:px-5 md:py-4'>
+		<div className={`flex order-2 md:order-1 align-middle py-2 w-full justify-center md:justify-between bg-black text-white md:px-5 md:py-4 ${scrolled && 'hidden'}`}>
 			<ul className='flex space-x-2'>
 				{contactLinks.map(({ icon, title }, index) => (
 					<li className='flex space-x-1 align-middle'>
