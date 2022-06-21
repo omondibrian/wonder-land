@@ -1,0 +1,255 @@
+{
+    "navItems": [
+      {
+        "id": 1,
+        "name": "Home",
+        "route-path": "/"
+      },
+      {
+        "id": 2,
+        "name": "Shop",
+        "route-path": "/shop"
+      },
+      {
+        "id": 3,
+        "name": "Flowers",
+        "route-path": "/product-category/buy-cannabis-weed-online"
+      },
+      {
+        "id": 4,
+        "name": "EDIBLES",
+        "route-path": "/product-category/edibles/"
+      },
+      {
+        "id": 5,
+        "name": "HASH",
+        "route-path": "/product-category/hash/"
+      },
+      {
+        "id": 6,
+        "name": "CONCENTRATES",
+        "route-path": "/product-category/concentrates/"
+      },
+      {
+        "id": 7,
+        "name": "COOKIES",
+        "route-path": "/product-category/cookies/"
+      },
+      {
+        "id": 8,
+        "name": "CBD OIL",
+        "route-path": "/product-category/cbd-oil/"
+      },
+      {
+        "id": 9,
+        "name": "CBD",
+        "route-path": "/product-category/cbd/"
+      },
+      {
+        "id": 10,
+        "name": "MUSHROOMS",
+        "route-path": "/product-category/mush-rooms/"
+      },
+      {
+        "id": 11,
+        "name": "PREROLLS",
+        "route-path": "/product-category/prerolls/"
+      },
+      {
+        "id": 12,
+        "name": "SPACE MONKEY",
+        "route-path": "/product-category/space-monkey/"
+      },
+      {
+        "id": 13,
+        "name": "MEDS",
+        "route-path": "/product-category/meds/"
+      },
+      {
+        "id": 14,
+        "name": "VAPES & DISPOSABLES",
+        "route-path": "/product-category/vapes-disposables/"
+      },
+      {
+        "id": 15,
+        "name": "ABOUT",
+        "route-path": "/cart"
+      },
+      {
+        "id": 16,
+        "name": "SHIPPING",
+        "route-path": "/shipping"
+      },
+      {
+        "id": 17,
+        "name": "FAQS",
+        "route-path": "/faqs"
+      },
+      {
+        "id": 18,
+        "name": "BLOGS",
+        "route-path": "/blogs"
+      }
+    ],
+    "footer": {
+      "recent": [
+        {
+          "id": 1,
+          "title": "How to Roll a Marijuana joint",
+          "route-path": "/how-to-roll-marijuana"
+        },
+        {
+          "id": 2,
+          "title": "How to Use CBD Oil for Erectile Dysfunction",
+          "route-path": "/how-to-use-cbd-oil"
+        },
+        {
+          "id": 3,
+          "title": "CANNABIS INFUSED GUMMIES RECIPE",
+          "route-path": "/cannabis-infused-gummies"
+        },
+        {
+          "id": 4,
+          "title": "States likely to legalize recereational marijuana in 2021",
+          "route-path": "/states-likely-to-legalize-recreational-marijuana-in-2021/"
+        },
+        {
+          "id": 5,
+          "title": "cannabis delivery",
+          "route-path": "/early-stoners/"
+        }
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "title": "anxiety",
+          "route-path": "/product-tag/anxiety/"
+        },
+        {
+          "id": 2,
+          "title": "baggies",
+          "route-path": "/product-tag/baggies/"
+        },
+        {
+          "id": 3,
+          "title": "cancer",
+          "route-path": "/product-tag/cancer/"
+        },
+        {
+          "id": 4,
+          "title": "cannabis",
+          "route-path": "/product-tag/cannabis/"
+        },
+        {
+          "id": 5,
+          "title": "creative",
+          "route-path": "/product-tag/creative/"
+        },
+        {
+          "id": 6,
+          "title": "Depression",
+          "route-path": "/product-tag/depression/"
+        },
+        {
+          "id": 7,
+          "title": "edible",
+          "route-path": "/product-tag/edible/"
+        },
+        {
+          "id": 8,
+          "title": "euphoric",
+          "route-path": "/product-tag/euphoric/"
+        },
+        {
+          "id": 9,
+          "title": "flowers",
+          "route-path": "/product-tag/flowers/"
+        },
+        {
+          "id": 10,
+          "title": "focus",
+          "route-path": "/product-tag/focus/"
+        },
+        {
+          "id": 11,
+          "title": "food",
+          "route-path": "/product-tag/food/"
+        },
+        {
+          "id": 12,
+          "title": "gas",
+          "route-path": "/product-tag/gas/"
+        },
+        {
+          "id": 13,
+          "title": "greasy death bubba",
+          "route-path": "/product-tag/greasy-death-bubba/"
+        },
+        {
+          "id": 14,
+          "title": "happy",
+          "route-path": "/product-tag/happy/"
+        },
+        {
+          "id": 15,
+          "title": "Hungry&Giggly",
+          "route-path": "/product-tag/hungry-giggly/"
+        },
+        {
+          "id": 16,
+          "title": "hybrid",
+          "route-path": "/product-tag/hybrid/"
+        },
+        {
+          "id": 17,
+          "title": "indica dominant",
+          "route-path": "/product-tag/indica-dominant/"
+        },
+        {
+          "id": 18,
+          "title": "insomia",
+          "route-path": "/product-tag/insomia/"
+        },
+        {
+          "id": 19,
+          "title": "kush",
+          "route-path": "/product-tag/kush/"
+        },
+        {
+          "id": 20,
+          "title": "New arrivals",
+          "route-path": "/product-tag/new-arrivals/"
+        },
+        {
+          "id": 21,
+          "title": "Pain",
+          "route-path": "/product-tag/pain/"
+        },
+        {
+          "id": 22,
+          "title": "relaxed",
+          "route-path": "/product-tag/relaxed/"
+        },
+        {
+          "id": 23,
+          "title": "Runtz",
+          "route-path": "/product-tag/runtz/"
+        },
+        {
+          "id": 24,
+          "title": "Runtzy",
+          "route-path": "/product-tag/runtzy/"
+        },
+        {
+          "id": 25,
+          "title": "skunk",
+          "route-path": "/product-tag/skunk/"
+        },
+        {
+          "id": 26,
+          "title": "sleepy",
+          "route-path": "/product-tag/sleepy/"
+        }
+      ]
+    }
+  }
